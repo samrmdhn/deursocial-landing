@@ -134,7 +134,6 @@ export default function Hero() {
             gap: 16,
             flexWrap: 'wrap' as const,
             padding: 'clamp(14px, 2vh, 22px) 0',
-            borderTop: '1px solid rgba(244,242,236,0.12)',
           }}
         >
           <a href="https://play.google.com/store/apps/details?id=com.deursocial.app" target="_blank" rel="noopener noreferrer"

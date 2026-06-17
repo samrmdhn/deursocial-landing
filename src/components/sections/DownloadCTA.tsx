@@ -84,9 +84,7 @@ export default function DownloadCTA() {
           </a>
           <a
             href="#"
-            style={{ display: 'block', transition: 'transform 0.15s ease' }}
-            onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.03)')}
-            onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+            style={{ display: 'block', opacity: 0.4, cursor: 'not-allowed' }}
           >
             <Image
               src="/appstore.svg"

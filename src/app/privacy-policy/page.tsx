@@ -40,7 +40,7 @@ const SECTIONS = [
   },
   {
     title: 'Contact Us',
-    body: 'If you have questions about this Privacy Policy or how we handle your data, please contact us:\n\nEmail: support@deursocial.com\nWebsite: deursocial.com',
+    body: 'If you have questions about this Privacy Policy or how we handle your data, please contact us:\n\nPhone: 0898-8887-229\nEmail: mindeursocial@gmail.com',
   },
 ];
 
