@@ -133,7 +133,7 @@ export default function Hero() {
             alignItems: 'center',
             gap: 16,
             flexWrap: 'wrap' as const,
-            padding: 'clamp(14px, 2vh, 22px) 0',
+            padding: 'clamp(48px, 6vh, 72px) 0 clamp(14px, 2vh, 22px)',
           }}
         >
           <a href="https://play.google.com/store/apps/details?id=com.deursocial.app" target="_blank" rel="noopener noreferrer"
