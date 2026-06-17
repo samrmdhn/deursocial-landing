@@ -6,7 +6,7 @@ export function GroupMCard() {
     <div style={{ background: '#18181B', borderRadius: 16, border: '1px solid rgba(255,255,255,0.10)', overflow: 'hidden' }}>
       <div style={{ padding: 14, display: 'flex', flexDirection: 'column', gap: 11 }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 10 }}>
-          <span style={{ fontSize: 14, fontWeight: 700, color: '#fff' }}>We The Fest Crew</span>
+          <span style={{ fontSize: 14, fontWeight: 700, color: '#fff' }}>Luminos Crew</span>
           <span style={{ background: 'rgba(74,222,128,0.12)', color: '#4ade80', borderRadius: 100, padding: '5px 11px', fontSize: 11, fontWeight: 700 }}>Joined</span>
         </div>
         <div>
@@ -52,7 +52,7 @@ function PostMCard() {
         <div style={{ display: 'flex', alignItems: 'center', gap: 4, flex: 1, minWidth: 0 }}>
           <span style={{ fontSize: 13, fontWeight: 600, color: '#fff' }}>samrmdhn</span>
           <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.35)' }}>›</span>
-          <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.6)' }}>We The Fest</span>
+          <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.6)' }}>Luminos Fest</span>
           <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginLeft: 'auto' }}>6h</span>
         </div>
       </div>
@@ -80,15 +80,15 @@ export function EventMCard() {
       <div style={{ height: 104, background: 'linear-gradient(135deg, #1e3a8a 0%, #7C5CFC 100%)', position: 'relative' }}>
         <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(circle at 70% 0%, rgba(255,255,255,0.25), transparent 55%)' }} />
         <div style={{ position: 'absolute', top: 9, left: 9, display: 'flex', gap: 6 }}>
-          <span style={{ background: 'rgba(0,0,0,0.5)', border: '1px solid rgba(74,222,128,0.4)', color: '#4ade80', fontSize: 9, fontWeight: 700, padding: '3px 8px', borderRadius: 99 }}>UPCOMING</span>
+          <span style={{ background: 'rgba(59,130,246,0.12)', border: '1px solid rgba(59,130,246,0.25)', color: '#93c5fd', fontSize: 9, fontWeight: 700, padding: '3px 8px', borderRadius: 99 }}>UPCOMING</span>
           <span style={{ background: 'rgba(0,0,0,0.55)', border: '1px solid rgba(255,140,0,0.4)', color: '#ffa94d', fontSize: 9, fontWeight: 700, padding: '3px 8px', borderRadius: 99 }}>🔥 Trending</span>
         </div>
       </div>
       <div style={{ padding: 11, display: 'flex', flexDirection: 'column', gap: 6 }}>
-        <span style={{ fontSize: 15, fontWeight: 800, letterSpacing: '-0.02em', color: '#fff' }}>Soundrenaline 2025</span>
+        <span style={{ fontSize: 15, fontWeight: 800, letterSpacing: '-0.02em', color: '#fff' }}>Voltwave 2025</span>
         <span style={{ display: 'flex', alignItems: 'center', gap: 5, color: 'rgba(255,255,255,0.55)', fontSize: 11 }}>
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" /><circle cx="12" cy="10" r="3" /></svg>
-          GWK Cultural Park, Bali
+          Jiexpo Kemayoran, Jakarta
         </span>
         <span style={{ display: 'flex', alignItems: 'center', gap: 5, color: 'rgba(255,255,255,0.55)', fontSize: 11 }}>
           <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M8 2v4M16 2v4M3 10h18" /><rect x="3" y="4" width="18" height="18" rx="2" /></svg>
@@ -107,7 +107,7 @@ export function EventMCard() {
   );
 }
 
-export function PassportMCard({ title = "We The Fest", date = "Jul 19, 2025", rank = "7" }: any) {
+export function PassportMCard({ title = "Luminos Fest", date = "Jul 19, 2025", rank = "7" }: any) {
   return (
     <div style={{ background: '#7C5CFC', borderRadius: 5, padding: '9px 9px 13px', boxShadow: '0 18px 40px rgba(0,0,0,0.5)' }}>
       <div style={{ height: 96, borderRadius: 2, overflow: 'hidden', background: 'linear-gradient(160deg, #12061f 0%, #4c1d95 60%, #db2777 120%)', position: 'relative' }}>

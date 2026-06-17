@@ -62,7 +62,9 @@ export default function DownloadCTA() {
           }}
         >
           <a
-            href="#"
+            href="https://play.google.com/store/apps/details?id=com.deursocial.app"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ display: 'block', transition: 'transform 0.15s ease' }}
             onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.03)')}
             onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}

@@ -110,7 +110,7 @@ export default function CheckInSection() {
                   className="shrink-0"
                   style={{ rotate: '2deg' } as React.CSSProperties}
                 >
-                  <PassportMCard title="Java Jazz Fest" date="Mar 2, 2025" rank="42" />
+                  <PassportMCard title="Echova Fest" date="Mar 2, 2025" rank="42" />
                 </motion.div>
 
               </div>

@@ -164,7 +164,7 @@ function MapToPolaroidVisual({ ck }: { ck: number }) {
         }}>
           <div style={{ width: '100%', transform: 'rotate(3deg)' }}>
             <MiniPolaroid
-              title="Java Jazz Fest"
+              title="Echova Fest"
               date="Mar 2, 2025"
               rank="42"
               bg="#1E40AF"
@@ -218,12 +218,12 @@ function MiniPolaroid({ title, date, rank, bg, photoGradient, photoHeight = 72 }
 }
 
 const PASSPORT_SHOWS = [
-  { title: 'Java Jazz Fest', date: 'Mar 2, 2025',  rank: '7',   bg: '#1E40AF', photoGradient: 'linear-gradient(145deg,#0a0e2e 0%,#1e3a8a 60%,#3b82f6 110%)' },
-  { title: 'We The Fest',   date: 'Jul 19, 2025', rank: '42',  bg: '#6D28D9', photoGradient: 'linear-gradient(145deg,#12061f 0%,#4c1d95 60%,#db2777 110%)' },
-  { title: 'Pestapora',     date: 'Sep 20, 2025', rank: '128', bg: '#BE185D', photoGradient: 'linear-gradient(145deg,#1f0a10 0%,#9d174d 60%,#f43f5e 110%)' },
-  { title: 'Joyland Fest',  date: 'Oct 4, 2025',  rank: '89',  bg: '#065F46', photoGradient: 'linear-gradient(145deg,#022c22 0%,#065f46 60%,#10b981 110%)' },
-  { title: 'Synchronize',   date: 'Nov 2, 2025',  rank: '31',  bg: '#92400E', photoGradient: 'linear-gradient(145deg,#1c1005 0%,#78350f 60%,#f59e0b 110%)' },
-  { title: 'Soundrenaline', date: 'Nov 15, 2025', rank: '12',  bg: '#1E3A5F', photoGradient: 'linear-gradient(145deg,#0c1a2e 0%,#1e3a5f 60%,#60a5fa 110%)' },
+  { title: 'Echova Fest',    date: 'Mar 2, 2025',  rank: '7',   bg: '#1E40AF', photoGradient: 'linear-gradient(145deg,#0a0e2e 0%,#1e3a8a 60%,#3b82f6 110%)' },
+  { title: 'Luminos Fest',  date: 'Jul 19, 2025', rank: '42',  bg: '#6D28D9', photoGradient: 'linear-gradient(145deg,#12061f 0%,#4c1d95 60%,#db2777 110%)' },
+  { title: 'Neonveil',      date: 'Sep 20, 2025', rank: '128', bg: '#BE185D', photoGradient: 'linear-gradient(145deg,#1f0a10 0%,#9d174d 60%,#f43f5e 110%)' },
+  { title: 'Emberfall Fest',date: 'Oct 4, 2025',  rank: '89',  bg: '#065F46', photoGradient: 'linear-gradient(145deg,#022c22 0%,#065f46 60%,#10b981 110%)' },
+  { title: 'Resonara',      date: 'Nov 2, 2025',  rank: '31',  bg: '#92400E', photoGradient: 'linear-gradient(145deg,#1c1005 0%,#78350f 60%,#f59e0b 110%)' },
+  { title: 'Voltwave',      date: 'Nov 15, 2025', rank: '12',  bg: '#1E3A5F', photoGradient: 'linear-gradient(145deg,#0c1a2e 0%,#1e3a5f 60%,#60a5fa 110%)' },
 ];
 const PASSPORT_ROTS    = [-7,  4, -5,  8, -3,  6];
 const PASSPORT_OFFSETS = [14, -6, 18, -8, 10, -14];

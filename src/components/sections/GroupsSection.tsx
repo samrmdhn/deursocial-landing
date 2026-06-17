@@ -1,7 +1,7 @@
 const GROUPS = [
   { name: 'Metalheads Jaksel', event: 'Download Festival', count: 24, colors: ['#7C5CFC','#3B82F6','#10B981','#F59E0B'] },
-  { name: 'Indie Kids BDG', event: 'Synchronize Fest', count: 11, colors: ['#EC4899','#F59E0B','#7C5CFC','#3B82F6'] },
-  { name: 'Rock Enthusiast', event: 'Soundrenaline 2025', count: 18, colors: ['#10B981','#3B82F6','#7C5CFC','#EC4899'] },
+  { name: 'Indie Kids BDG', event: 'Resonara Fest', count: 11, colors: ['#EC4899','#F59E0B','#7C5CFC','#3B82F6'] },
+  { name: 'Rock Enthusiast', event: 'Voltwave 2025', count: 18, colors: ['#10B981','#3B82F6','#7C5CFC','#EC4899'] },
 ];
 
 function GroupCard({ group, dim }: { group: typeof GROUPS[0]; dim?: boolean }) {

@@ -70,7 +70,7 @@ function GroupsCard() {
       <div className="relative z-10 inline-flex items-center gap-2 rounded-full px-3 py-1.5 w-fit mb-4"
         style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)' }}>
         <div className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-        <span className="text-xs text-white/60 font-medium">18 people going · Soundrenaline 2025</span>
+        <span className="text-xs text-white/60 font-medium">18 people going · Voltwave 2025</span>
       </div>
 
       <div className="relative z-10">

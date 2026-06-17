@@ -69,8 +69,7 @@ export default function Footer() {
             marginTop: 'clamp(12px, 2vw, 20px)',
             fontSize: 'clamp(13px, 1.2vw, 16px)',
             fontWeight: 600,
-            letterSpacing: '0.06em',
-            textTransform: 'uppercase' as const,
+            letterSpacing: '0.02em',
             color: 'rgba(244,242,236,0.45)',
           }}
         >
