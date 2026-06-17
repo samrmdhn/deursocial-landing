@@ -38,7 +38,7 @@ export default function DownloadCTA() {
             maxWidth: '16ch',
           }}
         >
-          Never go to a show alone again.
+          Never go to a festival alone again.
         </h2>
         <p
           style={{

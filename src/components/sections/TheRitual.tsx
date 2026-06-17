@@ -137,7 +137,7 @@ export default function TheRitual() {
                   <defs>
                     <path id="ds-circ" d="M50,50 m-39,0 a39,39 0 1,1 78,0 a39,39 0 1,1 -78,0" />
                   </defs>
-                  <text fontFamily="Archivo" fontSize="7.4" fontWeight="800" letterSpacing="2.1" fill="#F4F2EC">
+                  <text fontFamily="NimbusSan" fontSize="7.4" fontWeight="800" letterSpacing="2.1" fill="#F4F2EC">
                     <textPath href="#ds-circ" startOffset="0">
                       A PLACE FOR MUSIC · COMMUNITY · SCENE ·{' '}
                     </textPath>

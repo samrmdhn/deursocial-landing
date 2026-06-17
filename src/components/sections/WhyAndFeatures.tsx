@@ -114,8 +114,8 @@ function MapToPolaroidVisual({ ck }: { ck: number }) {
             <div style={{ position: 'absolute', top: 0, left: '50%', bottom: 0, width: 1.5, background: 'rgba(0,0,0,0.08)' }} />
             <div style={{ position: 'absolute', top: '35%', left: 0, right: 0, height: 1.5, background: 'rgba(0,0,0,0.08)' }} />
             <div style={{ position: 'absolute', top: '68%', left: 0, right: '50%', height: 1.5, background: 'rgba(0,0,0,0.06)' }} />
-            <span style={{ position: 'absolute', top: 7, left: 8, fontSize: 7, fontWeight: 700, color: 'rgba(0,0,0,0.28)', letterSpacing: '0.04em', textTransform: 'uppercase', fontFamily: 'Archivo,sans-serif' }}>Hall A–C</span>
-            <span style={{ position: 'absolute', top: 7, right: 8, fontSize: 7, fontWeight: 700, color: 'rgba(0,0,0,0.28)', letterSpacing: '0.04em', textTransform: 'uppercase', fontFamily: 'Archivo,sans-serif' }}>Hall D–F</span>
+            <span style={{ position: 'absolute', top: 7, left: 8, fontSize: 7, fontWeight: 700, color: 'rgba(0,0,0,0.28)', letterSpacing: '0.04em', textTransform: 'uppercase', fontFamily: 'NimbusSan,sans-serif' }}>Hall A–C</span>
+            <span style={{ position: 'absolute', top: 7, right: 8, fontSize: 7, fontWeight: 700, color: 'rgba(0,0,0,0.28)', letterSpacing: '0.04em', textTransform: 'uppercase', fontFamily: 'NimbusSan,sans-serif' }}>Hall D–F</span>
           </div>
 
           {/* Parking & south blocks */}
@@ -149,7 +149,7 @@ function MapToPolaroidVisual({ ck }: { ck: number }) {
           {/* Venue chip — dot-pulse is opacity-only to avoid transform conflict with backdropFilter */}
           <div style={{ position: 'absolute', bottom: 12, left: '50%', transform: 'translateX(-50%)', background: 'rgba(11,11,11,0.72)', borderRadius: 99, padding: '5px 12px', backdropFilter: 'blur(8px)', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: 6 }}>
             <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#4ade80', flexShrink: 0, animation: 'dot-pulse 1.8s ease-in-out infinite' }} />
-            <span style={{ fontSize: 10, fontWeight: 700, color: '#fff', fontFamily: 'Archivo,sans-serif', letterSpacing: '0.04em' }}>Jiexpo · Kemayoran, Jakarta</span>
+            <span style={{ fontSize: 10, fontWeight: 700, color: '#fff', fontFamily: 'NimbusSan,sans-serif', letterSpacing: '0.04em' }}>Jiexpo · Kemayoran, Jakarta</span>
           </div>
         </div>
 
@@ -178,7 +178,7 @@ function MapToPolaroidVisual({ ck }: { ck: number }) {
 
       {/* Action Button */}
       <div style={{ 
-        width: '100%', borderRadius: 14, padding: 16, fontFamily: 'Archivo, sans-serif', fontSize: 15, fontWeight: 800, 
+        width: '100%', borderRadius: 14, padding: 16, fontFamily: 'NimbusSan, sans-serif', fontSize: 15, fontWeight: 800, 
         display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10, background: cs.bg, color: cs.color, 
         transition: 'all 0.3s ease', boxShadow: '0 10px 20px rgba(0,0,0,0.3)', cursor: 'pointer'
       }}>

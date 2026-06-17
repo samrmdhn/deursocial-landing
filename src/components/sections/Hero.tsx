@@ -18,17 +18,28 @@ export default function Hero() {
   const wordShift = `-${(wordIndex * 100) / WORDS.length}%`;
 
   return (
-    <section style={{ background: '#0B0B0B' }}>
+    <section style={{ background: 'transparent', minHeight: '100dvh', display: 'flex', flexDirection: 'column' }}>
+      <style>{`
+        .wg-0,.wg-1,.wg-2,.wg-3 { -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; }
+        .wg-0 { background-image: linear-gradient(90deg, #fff 0%, #fff 25%, #0ea5e9 60%, #0369a1 100%); }
+        .wg-1 { background-image: linear-gradient(90deg, #fff 0%, #fff 25%, #ff6b35 60%, #e02020 100%); }
+        .wg-2 { background-image: linear-gradient(90deg, #fff 0%, #fff 25%, #22c55e 60%, #14532d 100%); }
+        .wg-3 { background-image: linear-gradient(90deg, #fff 0%, #fff 25%, #a855f7 60%, #6d28d9 100%); }
+      `}</style>
       <div
         style={{
           maxWidth: 1280,
           margin: '0 auto',
-          padding: 'clamp(28px, 4vw, 52px) clamp(20px, 5vw, 56px) 0',
+          padding: '0 clamp(20px, 5vw, 56px)',
           width: '100%',
+          flex: 1,
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
         }}
       >
         {/* headline */}
-        <div style={{ padding: 'clamp(40px, 6vw, 84px) 0 clamp(34px, 4vw, 56px)' }}>
+        <div style={{ padding: 'clamp(16px, 3vh, 40px) 0 clamp(14px, 2.5vh, 32px)' }}>
           <p
             style={{
               margin: '0 0 6px',
@@ -60,9 +71,11 @@ export default function Hero() {
                 willChange: 'transform',
               }}
             >
-              {WORDS.map((w) => (
+              {WORDS.map((w, i) => (
                 <span key={w} style={{ display: 'block', height: '1.22em', lineHeight: 1.22, whiteSpace: 'nowrap' }}>
-                  {w}
+                  <span className={`wg-${i}`}>
+                    {w}
+                  </span>
                 </span>
               ))}
             </div>
@@ -75,7 +88,7 @@ export default function Hero() {
               justifyContent: 'space-between',
               gap: 28,
               flexWrap: 'wrap' as const,
-              marginTop: 'clamp(30px, 4vw, 52px)',
+              marginTop: 'clamp(20px, 2.5vh, 36px)',
             }}
           >
             <p
@@ -129,7 +142,7 @@ export default function Hero() {
             alignItems: 'center',
             gap: 16,
             flexWrap: 'wrap' as const,
-            padding: 'clamp(18px, 2.5vw, 28px) 0',
+            padding: 'clamp(14px, 2vh, 22px) 0',
             borderTop: '1px solid rgba(244,242,236,0.12)',
           }}
         >
@@ -165,7 +178,8 @@ export default function Hero() {
           borderBottom: '1px solid rgba(244,242,236,0.2)',
           overflow: 'hidden',
           padding: '16px 0',
-          background: '#0B0B0B',
+          background: 'rgba(0,0,0,0.35)',
+          backdropFilter: 'blur(8px)',
         }}
       >
         <div

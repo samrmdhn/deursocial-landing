@@ -1,8 +1,37 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'NimbusSan';
+  src: url('/NimbusSanL-Reg.otf') format('opentype');
+  font-weight: 100 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NimbusSan';
+  src: url('/NimbusSanL-Bol.otf') format('opentype');
+  font-weight: 700 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NimbusSan';
+  src: url('/NimbusSanL-RegIta.otf') format('opentype');
+  font-weight: 100 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'NimbusSan';
+  src: url('/NimbusSanL-BolIta.otf') format('opentype');
+  font-weight: 700 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 @theme inline {
-  --font-archivo: 'Archivo', sans-serif;
-  --font-sans: var(--font-archivo);
+  --font-nimbus: 'NimbusSan', sans-serif;
+  --font-sans: var(--font-nimbus);
 }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; }
@@ -12,7 +41,7 @@ html { scroll-behavior: smooth; }
 body {
   background: #0B0B0B;
   color: #F4F2EC;
-  font-family: 'Archivo', sans-serif;
+  font-family: 'NimbusSan', sans-serif;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }

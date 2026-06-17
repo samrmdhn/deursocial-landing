@@ -48,12 +48,12 @@ function PostMCard() {
   return (
     <div style={{ background: '#0F0F12', borderRadius: 16, border: '1px solid rgba(255,255,255,0.08)', padding: 13 }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 9 }}>
-        <span style={{ width: 32, height: 32, borderRadius: 999, background: '#7C5CFC', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 12, fontWeight: 700 }}>R</span>
+        <span style={{ width: 32, height: 32, borderRadius: 999, background: '#7C5CFC', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 12, fontWeight: 700 }}>S</span>
         <div style={{ display: 'flex', alignItems: 'center', gap: 4, flex: 1, minWidth: 0 }}>
-          <span style={{ fontSize: 13, fontWeight: 600, color: '#fff' }}>rynaaa</span>
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="#3b82f6" stroke="#0F0F12" strokeWidth="2"><path d="M12 2l2.4 1.8 3 .2.2 3L19.4 12l-1.8 2.4-.2 3-3 .2L12 19.4 9.6 17.6l-3-.2-.2-3L4.6 12l1.8-2.4.2-3 3-.2z" /><path d="m9 12 2 2 4-4" stroke="#fff" fill="none" /></svg>
+          <span style={{ fontSize: 13, fontWeight: 600, color: '#fff' }}>samrmdhn</span>
+          <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.35)' }}>›</span>
           <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.6)' }}>We The Fest</span>
-          <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginLeft: 'auto' }}>2h</span>
+          <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', marginLeft: 'auto' }}>6h</span>
         </div>
       </div>
       <p style={{ margin: '9px 0 10px', fontSize: 13, lineHeight: 1.45, color: '#fff' }}>front row tonight 🔥 who else is here??</p>

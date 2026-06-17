@@ -136,7 +136,7 @@ function CheckInCard({ checkState }: { checkState: number }) {
               cursor: 'pointer',
               borderRadius: 13,
               padding: 14,
-              fontFamily: 'Archivo, sans-serif',
+              fontFamily: 'NimbusSan, sans-serif',
               fontSize: 14,
               fontWeight: 800,
               letterSpacing: '0.01em',
@@ -172,7 +172,7 @@ function BadgeCard() {
         <div style={{ position: 'absolute', inset: 8, animation: 'ds-spin 26s linear infinite reverse' }}>
           <svg viewBox="0 0 100 100" width="100%" height="100%">
             <defs><path id="ds-badge-ring" d="M50,50 m-39,0 a39,39 0 1,1 78,0 a39,39 0 1,1 -78,0" /></defs>
-            <text fontFamily="Archivo" fontSize="7.4" fontWeight="800" letterSpacing="2.2" fill="rgba(244,242,236,0.4)">
+            <text fontFamily="NimbusSan" fontSize="7.4" fontWeight="800" letterSpacing="2.2" fill="rgba(244,242,236,0.4)">
               <textPath href="#ds-badge-ring" startOffset="0">A PLACE FOR MUSIC · COMMUNITY · SCENE · </textPath>
             </text>
           </svg>

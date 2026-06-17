@@ -50,7 +50,7 @@ export const metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <div style={{ background: '#0B0B0B', color: '#F4F2EC', minHeight: '100vh', fontFamily: 'Archivo, sans-serif' }}>
+    <div style={{ background: '#0B0B0B', color: '#F4F2EC', minHeight: '100vh', fontFamily: 'NimbusSan, sans-serif' }}>
       <NavBar />
       <main style={{ maxWidth: 740, margin: '0 auto', padding: 'clamp(48px, 8vw, 96px) clamp(20px, 5vw, 40px) 80px' }}>
         <p style={{ fontSize: 12, fontWeight: 700, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(244,242,236,0.4)', marginBottom: 16 }}>

@@ -1,12 +1,5 @@
 import type { Metadata } from 'next';
-import { Archivo } from 'next/font/google';
 import './globals.css';
-
-const archivo = Archivo({
-  variable: '--font-archivo',
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800', '900'],
-});
 
 export const metadata: Metadata = {
   title: 'deursocial — A Place for Music, Community, Scene',
@@ -23,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={archivo.variable}>
+    <html lang="en">
       <body>{children}</body>
     </html>
   );

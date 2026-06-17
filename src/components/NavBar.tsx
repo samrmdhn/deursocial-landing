@@ -45,22 +45,7 @@ export default function NavBar() {
             onMouseEnter={(e) => (e.currentTarget.style.opacity = '1')}
             onMouseLeave={(e) => (e.currentTarget.style.opacity = '0.65')}
           >
-            features
-          </a>
-          <a
-            href="#ritual"
-            style={{
-              fontSize: 14,
-              fontWeight: 600,
-              color: '#F4F2EC',
-              textDecoration: 'none',
-              opacity: 0.65,
-              transition: 'opacity 0.15s ease',
-            }}
-            onMouseEnter={(e) => (e.currentTarget.style.opacity = '1')}
-            onMouseLeave={(e) => (e.currentTarget.style.opacity = '0.65')}
-          >
-            how it works
+            Features
           </a>
           <a
             href="#get"
